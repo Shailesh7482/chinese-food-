@@ -1,0 +1,56 @@
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/food\ review.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    /* scroll-behavior: smooth; */
+}
+.review-section{
+    width: 100%;
+    margin-top: 10%;
+}
+.review-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.review-left{
+    width: 45%;
+    height: 100%;
+}
+.review-left h1{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 10%;
+}
+.review-right{
+    width: 45%;
+    height: 100%;
+}
+.review-right img{
+    width: 100%;
+}
+@media only screen and (max-width:650px){
+    .review-row{
+        flex-direction: column;
+    }
+    .review-left{
+        width: 100%;
+        text-align: center;
+    }
+    .review-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width:450px){
+    .review-left h1{
+        font-size: 2rem;
+    }
+}
