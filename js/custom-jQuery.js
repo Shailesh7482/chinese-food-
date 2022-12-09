@@ -1,12 +1,6 @@
 
 
-//   $("#toggle").click(function(){
-//     $("ul").show(2000)
-// })
 
-// $(document).ready(function(){
-//     $("#slide").slideDown(1000)
-// })
 
 
 $(document).ready(function () {
@@ -14,16 +8,6 @@ $(document).ready(function () {
         $(".site-nav-menu").toggleClass("mobile-menu")
     })
 })
-
-// $(document).ready(function(){
-    // $(window).on('scroll',function(){
-    //     if($(window).scrollTop()){
-    //         $('.header-area').addClass('black')
-    //     }
-    //     else{
-    //         $('.header-area').removeClass('black');
-    //     }
-    // })
 
 
     window.addEventListener('scroll',function(){
@@ -36,4 +20,3 @@ $(document).ready(function () {
             navbar.classList.add('sticky-out');
         }
     });
-// })
